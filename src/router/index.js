@@ -9,7 +9,13 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      component: () => import('@/pages/Home/index.vue')
+      component: () => import('@/pages/Layout/index.vue'),
+      children: [
+        {
+          path: '',
+          component: () => import('@/pages/Home/index.vue')
+        }
+      ]
     },
     {
       path: "/login",
