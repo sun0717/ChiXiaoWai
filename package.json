@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "devNetWork": "vite --host 172.16.111.136"
   },
   "dependencies": {
     "element-plus": "^2.3.10",

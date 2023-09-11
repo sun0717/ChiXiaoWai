@@ -1,6 +1,7 @@
 <template>
     <div>
         <LayoutHeader />
+        <RouterView />
         <LayoutFooter />
     </div>
 </template>
